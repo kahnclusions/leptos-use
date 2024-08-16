@@ -140,6 +140,7 @@ pub use use_throttle_fn::*;
 pub use use_timeout_fn::*;
 pub use use_timestamp::*;
 pub use use_to_string::*;
+pub use use_user_media::*;
 pub use use_web_notification::*;
 pub use use_websocket::*;
 pub use use_window::*;
