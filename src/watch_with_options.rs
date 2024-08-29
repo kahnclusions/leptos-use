@@ -1,7 +1,8 @@
 use crate::filter_builder_methods;
 use crate::utils::{create_filter_wrapper, DebounceOptions, FilterOptions, ThrottleOptions};
 use default_struct_builder::DefaultBuilder;
-use leptos::prelude::{diagnostics::SpecialNonReactiveZone, *};
+use leptos::reactive_graph::diagnostics::SpecialNonReactiveZone;
+use leptos::prelude::*;
 use std::cell::RefCell;
 use std::rc::Rc;
 
