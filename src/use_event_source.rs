@@ -2,7 +2,7 @@ use crate::core::ConnectionReadyState;
 use crate::{js, use_event_listener, ReconnectLimit};
 use codee::Decoder;
 use default_struct_builder::DefaultBuilder;
-use leptos::prelude::diagnostics::SpecialNonReactiveZone;
+use leptos::reactive_graph::diagnostics::SpecialNonReactiveZone;
 use leptos::prelude::*;
 use std::marker::PhantomData;
 use std::sync::atomic::{AtomicBool, AtomicU32};

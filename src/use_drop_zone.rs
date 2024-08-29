@@ -77,7 +77,7 @@ where
 
     #[cfg(not(feature = "ssr"))]
     {
-        use leptos::prelude::diagnostics::SpecialNonReactiveZone;
+        use leptos::reactive_graph::diagnostics::SpecialNonReactiveZone;
         let UseDropZoneOptions {
             on_drop,
             on_enter,

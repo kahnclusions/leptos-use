@@ -1,7 +1,7 @@
 use leptos::leptos_dom::helpers::TimeoutHandle;
-use leptos::prelude::diagnostics::SpecialNonReactiveZone;
 use leptos::prelude::wrappers::read::Signal;
 use leptos::prelude::*;
+use leptos::reactive_graph::diagnostics::SpecialNonReactiveZone;
 use std::marker::PhantomData;
 use std::sync::{Arc, Mutex};
 use std::time::Duration;

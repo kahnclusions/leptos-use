@@ -2,7 +2,7 @@ use crate::core::{ElementMaybeSignal, MaybeRwSignal, PointerType, Position};
 use crate::{use_event_listener_with_options, use_window, UseEventListenerOptions, UseWindow};
 use default_struct_builder::DefaultBuilder;
 use leptos::ev::{pointerdown, pointermove, pointerup};
-use leptos::prelude::diagnostics::SpecialNonReactiveZone;
+use leptos::reactive_graph::diagnostics::SpecialNonReactiveZone;
 use leptos::prelude::wrappers::read::Signal;
 use leptos::prelude::*;
 use std::marker::PhantomData;

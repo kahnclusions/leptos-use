@@ -91,7 +91,7 @@ where
         let closure_js = Closure::<dyn FnMut(js_sys::Array, web_sys::ResizeObserver)>::new(
             move |entries: js_sys::Array, observer| {
                 #[cfg(debug_assertions)]
-                let _z = leptos::prelude::diagnostics::SpecialNonReactiveZone::enter();
+                let _z = leptos::reactive_graph::diagnostics::SpecialNonReactiveZone::enter();
 
                 callback(
                     entries

@@ -6,7 +6,7 @@ use crate::{
 use default_struct_builder::DefaultBuilder;
 use futures_util::join;
 use gloo_timers::future::sleep;
-use leptos::prelude::diagnostics::SpecialNonReactiveZone;
+use leptos::reactive_graph::diagnostics::SpecialNonReactiveZone;
 use leptos::prelude::wrappers::read::Signal;
 use leptos::prelude::*;
 use std::future::Future;

@@ -3,7 +3,7 @@
 use cfg_if::cfg_if;
 use default_struct_builder::DefaultBuilder;
 use leptos::leptos_dom::helpers::TimeoutHandle;
-use leptos::prelude::diagnostics::SpecialNonReactiveZone;
+use leptos::reactive_graph::diagnostics::SpecialNonReactiveZone;
 use leptos::prelude::*;
 use std::sync::{Arc, Mutex};
 use std::time::Duration;

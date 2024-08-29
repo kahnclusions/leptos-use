@@ -1,7 +1,7 @@
 use crate::utils::Pausable;
 use cfg_if::cfg_if;
 use default_struct_builder::DefaultBuilder;
-use leptos::prelude::diagnostics::SpecialNonReactiveZone;
+use leptos::reactive_graph::diagnostics::SpecialNonReactiveZone;
 use leptos::prelude::*;
 use std::cell::{Cell, RefCell};
 use std::rc::Rc;

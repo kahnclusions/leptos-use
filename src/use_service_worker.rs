@@ -1,6 +1,6 @@
 use default_struct_builder::DefaultBuilder;
 use leptos::prelude::actions::Action;
-use leptos::prelude::diagnostics::SpecialNonReactiveZone;
+use leptos::reactive_graph::diagnostics::SpecialNonReactiveZone;
 use leptos::prelude::wrappers::read::Signal;
 use leptos::prelude::*;
 use send_wrapper::SendWrapper;
